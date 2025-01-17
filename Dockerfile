@@ -9,6 +9,8 @@ RUN ap-get install maven -y
 
 RUN mvn clear install 
 
+FROM openjdk:21-jdk-slim
+
 EXPOSE 8080
 
 COPY --from=build /target/todolist-1.0.0.jar app.jar
