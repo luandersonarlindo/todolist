@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Guru\",\r\n    \"username\": \"GURU\",\r\n    \"password\": \"GURU0123\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Guruuu\",\r\n    \"username\": \"GURUUU\",\r\n    \"password\": \"GURU01234\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,15 +21,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/users/",
+					"raw": "http://localhost:8080/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"users",
-						""
+						"users"
 					]
 				}
 			},
@@ -43,12 +42,12 @@
 					"basic": [
 						{
 							"key": "username",
-							"value": "GURU",
+							"value": "GURUUU",
 							"type": "string"
 						},
 						{
 							"key": "password",
-							"value": "GURU0123",
+							"value": "GURU01234",
 							"type": "string"
 						}
 					]
@@ -57,7 +56,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"description\": \"Criando uma nova tarefa para fazer.\",\r\n    \"title\": \"Cadastro de tarefas\",\r\n    \"priority\": \"ALTA\",\r\n    \"startAt\": \"2025-10-06T12:30:00\",\r\n    \"endAt\": \"2025-10-06T12:35:00\"\r\n}",
+					"raw": "{\r\n    \"title\": \"Cadastro de tarefas\",\r\n    \"description\": \"Criando uma nova tarefa para fazer.\",\r\n    \"priority\": \"ALTA\",\r\n    \"startAt\": \"2025-10-06T12:30:00\",\r\n    \"endAt\": \"2025-10-06T12:35:00\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -65,15 +64,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/tasks/",
+					"raw": "http://localhost:8080/tasks",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"tasks",
-						""
+						"tasks"
 					]
 				}
 			},
@@ -86,13 +84,13 @@
 					"type": "basic",
 					"basic": [
 						{
-							"key": "username",
-							"value": "GURU",
+							"key": "password",
+							"value": "GURU01234",
 							"type": "string"
 						},
 						{
-							"key": "password",
-							"value": "GURU0123",
+							"key": "username",
+							"value": "GURUUU",
 							"type": "string"
 						}
 					]
@@ -100,15 +98,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/tasks/",
+					"raw": "http://localhost:8080/tasks",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"tasks",
-						""
+						"tasks"
 					]
 				}
 			},
@@ -121,13 +118,13 @@
 					"type": "basic",
 					"basic": [
 						{
-							"key": "username",
-							"value": "GURU",
+							"key": "password",
+							"value": "GURU01234",
 							"type": "string"
 						},
 						{
-							"key": "password",
-							"value": "GURU0123",
+							"key": "username",
+							"value": "GURUUU",
 							"type": "string"
 						}
 					]
@@ -136,7 +133,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Atualizando tarefas\",\r\n    \"priority\": \"MEDIA\"\r\n}",
+					"raw": "{\r\n    \"title\": \"Atualizando tarefas\",\r\n    \"description\": \"Criando uma nova tarefa para fazer.\",\r\n    \"priority\": \"MEDIA\",\r\n    \"startAt\": \"2025-10-06T12:30:00\",\r\n    \"endAt\": \"2025-10-06T12:35:00\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -144,7 +141,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/tasks/c4660f04-cd12-431a-8d12-ba97696f7429",
+					"raw": "http://localhost:8080/tasks/309ff896-6f81-4637-bc91-d147b8ca7c95",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -152,7 +149,7 @@
 					"port": "8080",
 					"path": [
 						"tasks",
-						"c4660f04-cd12-431a-8d12-ba97696f7429"
+						"309ff896-6f81-4637-bc91-d147b8ca7c95"
 					]
 				}
 			},
